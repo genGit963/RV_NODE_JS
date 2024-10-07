@@ -71,7 +71,7 @@ console.warn(`Danger ${name1}! Danger!`);
 // logger.log("count: %d", count);
 // In stdout.log: count 5
 
-console.assert(true, "this will assert");
+console.assert(false, "this will assert");
 // console.clear()
 // console.count([label])
 // console.countReset([label])
