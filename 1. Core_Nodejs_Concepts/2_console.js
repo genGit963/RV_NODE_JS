@@ -91,4 +91,4 @@ console.assert(true, "this will assert");
 // console.trace([message][, ...args])
 // console.warn([data][, ...args])
 
-console.log("--------------------------------------------");
+console.log("----------------------------------------------------------");
