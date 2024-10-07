@@ -1,0 +1,16 @@
+
+Stage 1: Core Node.js Concepts
+
+    Start with the fundamentals to understand the basics of Node.js 
+    and asynchronous programming.
+
+        1. Command-line options – Learn how to run Node.js scripts from the terminal with different arguments.
+        2. Console – Start with the simple `console` API (e.g., `console.log`) for debugging.
+        3. Globals – Understand Node.js global objects (like `__dirname`, `process`, etc.).
+        4. Modules: CommonJS modules – Learn how Node.js modules work, especially CommonJS (require/export).
+        5. Modules: ECMAScript modules – Get familiar with ES6 modules (`import/export`).
+        6. File System (fs) – Learn file handling (reading, writing, updating) using the `fs` module.
+        7. Path – Manage and work with file paths in a platform-agnostic way.
+        8. HTTP/HTTPS – Learn how to create basic HTTP and HTTPS servers.
+        9. Stream – Understand data streams, reading from and writing to streams.
+        10. Buffer – Learn how to handle binary data with buffers.
