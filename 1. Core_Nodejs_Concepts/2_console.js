@@ -72,8 +72,8 @@ console.warn(`Danger ${name1}! Danger!`);
 // In stdout.log: count 5
 
 console.assert(false, "this will assert");
-// console.clear()
-// console.count([label])
+console.clear();
+console.count([2, 4, 5, 5, 3]);
 // console.countReset([label])
 // console.debug(data[, ...args])
 // console.dir(obj[, options])
