@@ -146,3 +146,27 @@ const buffer = readFileSync(new URL("./file.txt", import.meta.url));
         Allows passing additional attributes with the import statement.
  */
 import jsonData from './data.json' with { type: 'json' };
+console.log(jsonData);
+
+/**
+ * 11. Built-in Modules
+        ES modules support named and default exports for built-in Node.js modules.
+
+* 12. import() Expressions
+        Dynamic imports can load modules at runtime.
+
+
+*/
+// Example 11: Built-in modules
+import { readFile } from 'node:fs';
+
+readFile('./example.txt', 'utf8', (err, data) => {
+  if (err) {
+    console.error(err);
+  } else {
+    console.log(data);
+  }
+});
+
+// Example 12:  import() Expressions
+const module = await import('./module.mjs');
