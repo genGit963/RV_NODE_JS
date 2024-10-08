@@ -91,7 +91,8 @@ For further details, visit the official Node.js documentation (https://nodejs.or
         preventing global namespace pollution.
 
 16. The Module Scope
-    - Isolation: Variables defined in a module do not pollute the global scope.
+    - Isolation: 
+        Variables defined in a module do not pollute the global scope.
 
 17. `__dirname` and `__filename`
     - Paths: `__dirname` gives the directory name of the current module, while `__filename` provides the full path to the module file.
