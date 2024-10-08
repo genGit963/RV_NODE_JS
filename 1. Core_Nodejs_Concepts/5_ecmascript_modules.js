@@ -111,6 +111,38 @@ console.log(addTwo(4)); // Output: 6
 /**
  * 3. Packages
         Packages can use the "exports" field in package.json 
-        to define which modules they export, 
+        to define which "modules they export," 
         affecting how they are imported in other code.
 */
+
+/**
+ *  4. import Specifiers
+            1. Relative Specifiers: Path-based imports like ./module.mjs.
+            2. Bare Specifiers: Refer to package names, e.g., import express from 'express'.
+            3. Absolute Specifiers: Use complete URLs or paths.
+
+    *  5. Mandatory File Extensions
+            You must use file extensions (like .mjs, .js) 
+            when using the import statement for relative and absolute paths.
+
+    *   6. URLs
+            Modules are resolved as URLs; you must use URL encoding for special characters.
+
+            7. file: URLs
+            These are used to directly reference files using the file:// scheme.
+
+            8. data: Imports
+            Allows importing modules directly using the data: URL scheme for JavaScript, JSON, and WebAssembly.
+
+            9. node: Imports
+            Built-in modules can be imported using node: URLs, like import fs from 'node:fs';.
+ */
+// Example: 6  URLs
+import { readFileSync } from "node:fs";
+const buffer = readFileSync(new URL("./file.txt", import.meta.url));
+
+/**
+ * 10. Import Attributes
+        Allows passing additional attributes with the import statement.
+ */
+import jsonData from './data.json' with { type: 'json' };

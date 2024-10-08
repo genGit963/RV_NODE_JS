@@ -1,0 +1,12 @@
+{
+  "name": "this is data file",
+  "files": {
+    "file1": "this is file1",
+    "file2": "this is file2",
+    "file3": "this is file3",
+    "file4": {
+      "des": "it has other description",
+      "subfile1": "this is file4.1"
+    }
+  }
+}
