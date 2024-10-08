@@ -1,3 +1,5 @@
+# ----------- Consistentency is the key -----------
+
 # Node.js Learning Path
 
 Welcome to the **Node.js Learning Path**! This guide will take you from the basics to advanced concepts in Node.js, structured progressively for a smooth learning journey. Whether you're focusing on full-stack development, system programming, or enterprise-level applications, this roadmap will provide clear directions on what to learn and when.
