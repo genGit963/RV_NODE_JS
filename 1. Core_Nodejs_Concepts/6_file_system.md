@@ -1,4 +1,4 @@
-Based on the images you've provided, it seems they cover the file system module in Node.js, focusing on the use of Promises, Callbacks, and synchronous examples for handling files. Below is a brief explanation of each topic with code examples:
+File system module in Node.js, focusing on the use of Promises, Callbacks, and synchronous examples for handling files.
 
 ### 1. **Promise Example**
 
