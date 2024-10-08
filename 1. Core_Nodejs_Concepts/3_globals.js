@@ -5,3 +5,6 @@ console.log("--filename : ", __filename);
 
 console.log(Object);
 console.log(globalThis);
+
+// performance
+console.log(Performance);
