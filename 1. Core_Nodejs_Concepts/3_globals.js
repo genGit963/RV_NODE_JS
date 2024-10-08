@@ -177,3 +177,6 @@ console.log(globalThis);
 console.log(Performance);
 console.log("navigator.language: ", navigator.language);
 console.log("navigator.userAgent: ", navigator.userAgent);
+console.log("navigator.userAgent: ", navigator.platform);
+
+console.log("\n----------------------------------------------------------");
