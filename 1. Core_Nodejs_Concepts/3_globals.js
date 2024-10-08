@@ -186,7 +186,7 @@ console.log("navigator.userAgent: ", navigator.platform);
 console.log("----------------------------------------------------------");
 
 // process and streams
-console.log("process :", process);
+// console.log("process :", process);
 console.log("ReadableStream: ", ReadableStream);
 
 console.log("----------------------------------------------------------");
