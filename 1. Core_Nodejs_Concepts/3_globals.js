@@ -175,8 +175,15 @@ console.log(globalThis);
 
 // performance
 console.log(Performance);
+console.log("PerformanceResourceTiming: ", PerformanceResourceTiming);
+console.log("----------------------------------------------------------\n");
+
+// navigator
 console.log("navigator.language: ", navigator.language);
 console.log("navigator.userAgent: ", navigator.userAgent);
 console.log("navigator.userAgent: ", navigator.platform);
+
+// process and streams
+console.log("process :", process);
 
 console.log("\n----------------------------------------------------------");
