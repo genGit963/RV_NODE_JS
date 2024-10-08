@@ -1,3 +1,5 @@
+//        2. Console – Start with the simple `console` API (e.g., `console.log`) for debugging.
+
 /**
  * https://nodejs.org/docs/latest-v22.x/api/console.html#class-console
  * 
