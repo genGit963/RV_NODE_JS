@@ -1,3 +1,10 @@
-import jsonData from "./data.json" with { type : "json"};
+const EventEmitter = require("events");
+const emitter = new EventEmitter();
 
-console.log(jsonData);
+// Listener
+emitter.on("event", () => {
+  console.log("An event occurred!");
+});
+
+// Emit an event
+emitter.emit("event");
