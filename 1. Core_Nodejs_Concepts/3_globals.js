@@ -189,4 +189,10 @@ console.log("----------------------------------------------------------");
 console.log("process :", process);
 console.log("ReadableStream: ", ReadableStream);
 
+console.log("----------------------------------------------------------");
+
+// request and response
+console.log("Request: ", Request);
+console.log("Response: ", Response);
+
 console.log("\n----------------------------------------------------------");
