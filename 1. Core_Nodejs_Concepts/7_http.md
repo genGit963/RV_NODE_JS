@@ -1,4 +1,4 @@
-I will align the description with the latest documentation from the Node.js website, structuring the classes and methods as per the official API to give you an accurate and concise explanation.
+# HTTP module
 
 ### 1. Class: `http.Agent`
 
