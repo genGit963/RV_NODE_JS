@@ -39,7 +39,8 @@ Global Objects and Their Uses
 9. CountQueuingStrategy: Controls the queue for streams based on a count of items.
 
 10. Crypto
-    - crypto: Provides cryptographic functionality (includes a set of wrappers for OpenSSL's hash, HMAC, cipher, decipher, sign, and verify functions).
+    - crypto: Provides cryptographic functionality 
+              (includes a set of wrappers for OpenSSL's hash, HMAC, cipher, decipher, sign, and verify functions).
 
 11. CryptoKey: Represents a cryptographic key.
 
