@@ -99,3 +99,4 @@ Promise.race([promise1, promise2])
 - **`Promise.allSettled()`**: Waits for all promises to settle (resolve or reject) and returns the outcome of each.
 - **`Promise.any()`**: Resolves as soon as one promise fulfills; rejects if all promises are rejected.
 - **`Promise.race()`**: Resolves or rejects as soon as the first promise resolves or rejects.
+- These methods may solve `callback hell`
