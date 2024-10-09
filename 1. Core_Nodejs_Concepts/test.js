@@ -20,3 +20,5 @@ emitter.emit("event");
 
 // Emit args event
 emitter.emit("event_with_args", 2, 3);
+
+console.log("\n----------------------------------------------------------");
