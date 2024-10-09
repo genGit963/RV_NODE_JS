@@ -57,14 +57,14 @@ fetchData
   });
 ```
 
-### Async/Await in JavaScript and Node.js
+# Async/Await in JavaScript and Node.js
 
 **Async/await** is a syntactic sugar built on top of Promises that allows you to write asynchronous code in a synchronous-like manner. It makes code easier to read and understand.
 
 #### Key Concepts
 
-- **`async`**: Declares an asynchronous function that automatically returns a promise.
-- **`await`**: Pauses the execution of the async function and waits for the promise to resolve or reject.
+- **`async`**: Declares an asynchronous function that <strong><u>automatically returns a promise</u></strong>.
+- **`await`**: Pauses the execution of the async function and waits for the promise to <u>resolve or reject</u>.
 
 #### Example: Using Async/Await
 

@@ -1,4 +1,4 @@
-// making Promise
+// making Promise with given params
 const fetchDataPromise = (arg1) => {
   console.log("given arg1: ", arg1);
   return new Promise((resolve, reject) => {
@@ -26,4 +26,6 @@ fetchDataPromise("/data/file.txt")
     console.log("Operation completed"); // Runs regardless of the outcome
   });
 
-console.log("\n----------------------------------------------------------");
+console.log(
+  "\n--------------------------------async await--------------------------"
+);
