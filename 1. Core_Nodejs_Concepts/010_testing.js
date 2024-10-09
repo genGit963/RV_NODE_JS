@@ -20,6 +20,15 @@ emitter.once("onceEmit", () => {
   console.log("This will run only one time");
 });
 
+// ------ Preparing Removers ------
+const listenerFunc = () => {
+  console.log("This will be removed");
+  // do removal execution
+  console.log("Transaction completed");
+  console.log("Removed successfully !!");
+};
+emitter.on("removeableEvent", listenerFunc);
+
 // Emit an event
 emitter.emit("event");
 
@@ -28,16 +37,6 @@ emitter.emit("event_with_args", 3, 3);
 
 // Emit once
 emitter.emit("onceEmit");
-
-// ------ Preparing Removers ------
-const listenerFunc = () => {
-  console.log("This will be removed");
-  // do removal execution
-  console.log("Transaction completed");
-  console.log("Removed successfully !!");
-};
-
-emitter.on("removeableEvent", listenerFunc);
 
 // remove
 emitter.removeListener("removeableEvent", listenerFunc);
