@@ -194,7 +194,7 @@ asyncEmitter.emit("asyncEvent"); // This will log immediately
 console.log("Continuing with other code...");
 ```
 
-### 7. **Best Practices**
+# 7. **`Best Practices`**
 
 - **Avoid Memory Leaks**: Regularly check the number of listeners using `getMaxListeners()` and adjust it as necessary.
 - **Error Handling**: Always listen for error events to prevent unhandled exceptions.
@@ -202,4 +202,6 @@ console.log("Continuing with other code...");
 
 ### Conclusion
 
-The event-driven model in Node.js, facilitated by the `EventEmitter` class, is a powerful paradigm for managing asynchronous operations. By understanding how to create, emit, listen, and handle events, developers can build scalable and efficient applications. The flowchart provided summarizes the key processes involved in working with events, emphasizing the cyclical nature of event registration and handling in Node.js.
+The event-driven model in Node.js, facilitated by the `EventEmitter` class, is a powerful paradigm for managing asynchronous operations. By understanding how to `create`, `emit`, `listen`, and `handle events`, developers can build scalable and efficient applications.
+
+The flowchart provided summarizes the key processes involved in working with events, emphasizing the cyclical nature of event registration and handling in Node.js.
