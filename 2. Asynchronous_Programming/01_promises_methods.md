@@ -4,7 +4,7 @@ Promise allows you to work with multiple promises more effectively. These method
 
 ## 1. `Promise.all()`
 
-`Promise.all()` <br>takes an iterable of promises (like an array) and returns a single Promise that resolves when all of the promises in the iterable have resolved or when the iterable contains no promises. It rejects with the reason of the first promise that rejects.
+`Promise.all()` <br> It takes an iterable of promises (like an array) and returns a single Promise that resolves when all of the promises in the iterable have resolved or when the iterable contains no promises. It rejects with the reason of the first promise that rejects.
 
 #### Example:
 
@@ -26,7 +26,7 @@ Promise.all([promise1, promise2, promise3])
 
 ## 2. `Promise.allSettled()`
 
-`Promise.allSettled()` returns a promise that resolves after all of the given promises have either resolved or rejected, with an array of objects that each describe the outcome of each promise.
+`Promise.allSettled()` <br> It returns a promise that resolves after all of the given promises have either resolved or rejected, with an array of objects that each describe the outcome of each promise.
 
 #### Example:
 
@@ -50,7 +50,7 @@ Promise.allSettled([promise1, promise2, promise3]).then((results) => {
 
 ## 3. `Promise.any()`
 
-`Promise.any()` takes an iterable of Promise objects and, as soon as one of the promises in the iterable fulfills, returns a single promise that resolves with the value from that promise. If no promises in the iterable fulfill (i.e., all of the given promises are rejected), then the returned promise is rejected with an `AggregateError`, a special error that groups together individual errors.
+`Promise.any()` <br> It takes an iterable of Promise objects and, as soon as one of the promises in the iterable fulfills, returns a single promise that resolves with the value from that promise. If no promises in the iterable fulfill (i.e., all of the given promises are rejected), then the returned promise is rejected with an `AggregateError`, a special error that groups together individual errors.
 
 #### Example:
 
@@ -72,7 +72,7 @@ Promise.any([promise1, promise2, promise3])
 
 ## 4. `Promise.race()`
 
-`Promise.race()` takes an iterable of promises and returns a single promise that resolves or rejects as soon as one of the promises in the iterable resolves or rejects, with the value or reason from that promise.
+`Promise.race()` <br> It takes an iterable of promises and returns a single promise that resolves or rejects as soon as one of the promises in the iterable resolves or rejects, with the value or reason from that promise.
 
 #### Example:
 
