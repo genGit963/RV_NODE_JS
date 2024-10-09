@@ -29,4 +29,17 @@ emitter.emit("event_with_args", 3, 3);
 // Emit once
 emitter.emit("onceEmit");
 
+// ------ Preparing Removers ------
+const listenerFunc = () => {
+  console.log("This will be removed");
+  // do removal execution
+  console.log("Transaction completed");
+  console.log("Removed successfully !!");
+};
+
+emitter.on("removeableEvent", listenerFunc);
+
+// remove
+emitter.removeListener("removeableEvent", listenerFunc);
+
 console.log("\n----------------------------------------------------------");
