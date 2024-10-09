@@ -2,7 +2,7 @@
 
 A **Promise** is an object representing the <strong style="color:gray"><u>eventual completion or failure of an asynchronous operation</u></strong>. It allows you to write asynchronous code in a more readable way and handle the `success` or `failure` of an operation cleanly.
 
-### <u>Promise States</u>
+### Promise State
 
 A Promise can be in one of three states:
 
@@ -10,7 +10,7 @@ A Promise can be in one of three states:
 2. **Fulfilled**: The operation completed successfully.
 3. **Rejected**: The operation failed.
 
-#### Promise Methods
+### Promise Methods
 
 1. **`then()`**: Executes when the promise is fulfilled, and you get the result.
    ```javascript
