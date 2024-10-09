@@ -57,7 +57,7 @@ fetchData
   });
 ```
 
-# Async/Await in JavaScript and Node.js
+# Async/Await
 
 **Async/await** is a syntactic sugar built on top of Promises that allows you to write asynchronous code in a synchronous-like manner. It makes code easier to read and understand.
 
