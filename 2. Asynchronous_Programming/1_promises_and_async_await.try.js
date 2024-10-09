@@ -25,3 +25,5 @@ fetchDataPromise("/data/file.txt")
   .finally(() => {
     console.log("Operation completed"); // Runs regardless of the outcome
   });
+
+console.log("\n----------------------------------------------------------");
