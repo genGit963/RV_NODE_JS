@@ -16,7 +16,7 @@ emitter.on("event_with_args", (arg1, arg2) => {
 });
 
 // emit once: one-time listener
-emitter.once("onceEvent", () => {
+emitter.once("onceEmit", () => {
   console.log("This will run only one time");
 });
 
@@ -27,6 +27,6 @@ emitter.emit("event");
 emitter.emit("event_with_args", 3, 3);
 
 // Emit once
-emitter.emit("onceEmitter");
+emitter.emit("onceEmit");
 
 console.log("\n----------------------------------------------------------");
