@@ -2,7 +2,7 @@
 
 ### Overview of Events
 
-In Node.js, the event-driven architecture is a core feature that enables non-blocking I/O operations. This is achieved through the use of events and listeners, allowing different parts of an application to communicate asynchronously. The primary class for working with events in Node.js is `EventEmitter`, which is found in the `events` module.
+In Node.js, the event-driven architecture is a core feature that enables `non-blocking I/O operations`. This is achieved through the use of <u><strong> events and listener</strong></u>, allowing different parts of an application to communicate asynchronously. The primary class for working with events in Node.js is `EventEmitter`, which is found in the `events` module.
 
 ### EventEmitter Class
 
