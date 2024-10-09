@@ -11,7 +11,7 @@ emitter.on("event_with_args", (arg1, arg2) => {
   if (arg1 !== arg2) {
     console.log("Given inputs are not equal !!");
   } else {
-    console.log("Given inputs are equal");
+    console.log("Given inputs are equal !!");
   }
 });
 
