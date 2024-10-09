@@ -31,6 +31,7 @@ emitter.on("removeableEvent", listenerFunc);
 
 // Emit an event
 emitter.emit("event");
+console.log("checking if its in async processes !!");
 
 // Emit args event
 emitter.emit("event_with_args", 3, 3);
