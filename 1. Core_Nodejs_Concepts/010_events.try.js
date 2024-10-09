@@ -55,3 +55,5 @@ asyncEmitter.on("asyncEvent", async () => {
 console.log("Emitting async event...");
 asyncEmitter.emit("asyncEvent"); // This will log immediately
 console.log("Continuing with other code...");
+
+console.log("\n----------------------------------------------------------");
