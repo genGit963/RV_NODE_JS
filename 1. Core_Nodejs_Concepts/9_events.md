@@ -59,7 +59,7 @@ Below is a flowchart illustrating the event handling process in Node.js:
            |
            v
 +---------------------+
-|   Register Listener  |
+|  Register Listener  |
 |     with on()       |
 +---------------------+
            |
@@ -71,14 +71,14 @@ Below is a flowchart illustrating the event handling process in Node.js:
            |
            v
 +---------------------+
-|   Invoke Listener    |
-|  with event data     |
+|  Invoke Listener    |
+|  with event data    |
 +---------------------+
            |
            v
 +---------------------+
-|   Remove Listener    |
-|     with remove()    |
+|   Remove Listener   |
+|     with remove()   |
 +---------------------+
 ```
 

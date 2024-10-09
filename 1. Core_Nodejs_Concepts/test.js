@@ -3,7 +3,7 @@ const emitter = new EventEmitter();
 
 // Listener
 emitter.on("event", () => {
-  console.log("An event occurred!");
+  console.log({ data: "Here will be data" });
 });
 
 // Emit an event
