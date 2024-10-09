@@ -19,6 +19,6 @@ emitter.on("event_with_args", (arg1, arg2) => {
 emitter.emit("event");
 
 // Emit args event
-emitter.emit("event_with_args", 2, 3);
+emitter.emit("event_with_args", 3, 3);
 
 console.log("\n----------------------------------------------------------");
