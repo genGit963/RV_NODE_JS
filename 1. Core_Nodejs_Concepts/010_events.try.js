@@ -42,4 +42,16 @@ emitter.emit("onceEmit");
 // remove
 emitter.removeListener("removeableEvent", listenerFunc);
 
-console.log("\n----------------------------------------------------------");
+console.log(
+  "\n------------------------------ async events ----------------------------"
+);
+const asyncEmitter = new EventEmitter();
+
+asyncEmitter.on("asyncEvent", async () => {
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+  console.log("Async event handled after 1 second");
+});
+
+console.log("Emitting async event...");
+asyncEmitter.emit("asyncEvent"); // This will log immediately
+console.log("Continuing with other code...");
