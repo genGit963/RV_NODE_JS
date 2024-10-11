@@ -1,4 +1,4 @@
-# callbacks
+# Callbacks
 
 Callbacks are a fundamental concept for handling asynchronous operations. A callback is a function passed into another function as an argument that is executed after a certain event or operation is completed.
 
@@ -6,19 +6,13 @@ This allows you to perform actions once an asynchronous operation finishes, such
 
 ## Understanding Callbacks
 
-#### Basic Structure
+### Basic Structure
 
-A typical callback function takes two parameters: an error (if any) and the result of the operation. This pattern is often referred to as the "error-first callback" style.
+A typical callback function takes two parameters: an `error` (if any) and the `result` of the operation. This pattern is often referred to as the "error-first callback" style.
 
-### Example: Using Callbacks in Node.js
+#### Example: Using Callbacks in Node.js
 
 Let's look at a practical example of using callbacks in Node.js with the built-in `fs` (file system) module to read a file.
-
-#### Step 1: Setup
-
-Ensure you have Node.js installed on your machine. You can create a new JavaScript file, e.g., `callback-example.js`, and follow along.
-
-#### Step 2: Example Code
 
 ```javascript
 const fs = require("fs");
