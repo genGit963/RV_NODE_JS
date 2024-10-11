@@ -2,7 +2,7 @@
 
 It is the latest version of the HTTP protocol that offers significant improvements over its predecessor, HTTP/1.1. It is designed to make web communications faster and more efficient. Node.js has built-in support for HTTP/2 through its `http2` module. Let’s go through the details of HTTP/2 in Node.js.
 
-### Table of Contents
+## Table of Contents
 
 1. **Introduction to HTTP/2**
 2. **Key Features of HTTP/2**
@@ -16,7 +16,7 @@ It is the latest version of the HTTP protocol that offers significant improvemen
 10. **Practical Example**
 11. **Conclusion**
 
-### 1. **Introduction to HTTP/2**
+## 1. **Introduction to HTTP/2**
 
 HTTP/2 is a major upgrade over HTTP/1.1, focused on performance improvements. The primary goals of HTTP/2 are to:
 
@@ -30,7 +30,7 @@ To use HTTP/2 in Node.js, you need to import the `http2` module:
 const http2 = require("http2");
 ```
 
-### 2. **Key Features of HTTP/2**
+## 2. **Key Features of HTTP/2**
 
 Here are some key features of HTTP/2 that make it faster and more efficient than HTTP/1.1:
 
@@ -39,7 +39,7 @@ Here are some key features of HTTP/2 that make it faster and more efficient than
 - **Server Push**: Allows the server to send resources to the client before they are requested, reducing load times.
 - **Binary Protocol**: HTTP/2 uses a binary protocol, which is more efficient than the text-based protocol used by HTTP/1.1.
 
-### 3. **Setting Up an HTTP/2 Server**
+## 3. **Setting Up an HTTP/2 Server**
 
 Here's a simple example of creating an HTTP/2 server in Node.js:
 
@@ -57,7 +57,7 @@ server.listen(8080, () => {
 });
 ```
 
-### 4. **Creating an HTTP/2 Secure Server**
+## 4. **Creating an HTTP/2 Secure Server**
 
 To create an HTTP/2 server that uses SSL/TLS for secure connections, you'll need a certificate and a private key:
 
@@ -82,11 +82,11 @@ server.listen(8443, () => {
 });
 ```
 
-### 5. **Working with HTTP/2 Streams**
+## 5. **Working with HTTP/2 Streams**
 
 In HTTP/2, a stream is a bidirectional flow of data within a connection. Streams allow for multiplexing, where multiple requests and responses can be handled concurrently.
 
-#### Handling Streams in Node.js
+## Handling Streams in Node.js
 
 ```js
 server.on("stream", (stream, headers) => {
@@ -95,7 +95,7 @@ server.on("stream", (stream, headers) => {
 });
 ```
 
-### 6. **HTTP/2 Client Requests**
+## 6. **HTTP/2 Client Requests**
 
 The `http2` module can also be used to make client requests to an HTTP/2 server:
 
@@ -125,11 +125,11 @@ req.on("end", () => {
 req.end();
 ```
 
-### 7. **Server Push**
+## 7. **Server Push**
 
-Server Push allows the server to send multiple resources to the client proactively, even before the client requests them. This feature is particularly useful for delivering CSS, JavaScript, and other static assets that are essential for rendering a page.
+Server Push allows the `server to send multiple resources` to the client proactively, even before the client requests them. This feature is <u>particularly useful for delivering CSS, JavaScript, and other static assets that are essential for rendering a page</u>.
 
-#### Example of Server Push:
+## Example of Server Push:
 
 ```js
 server.on("stream", (stream, headers) => {
@@ -144,20 +144,20 @@ server.on("stream", (stream, headers) => {
 });
 ```
 
-### 8. **Performance Benefits of HTTP/2**
+## 8. **Performance Benefits of HTTP/2**
 
 - **Reduced Latency**: Multiplexing reduces the need for multiple TCP connections, minimizing latency.
 - **Fewer Round Trips**: Header compression and server push help reduce the number of round trips between client and server.
 - **Enhanced Security**: HTTP/2 is often implemented over TLS, which enhances security.
 
-### 9. **Best Practices for Using HTTP/2**
+## 9. **Best Practices for Using HTTP/2**
 
 - **Enable Compression**: Use header compression to reduce data transfer size.
 - **Leverage Server Push**: Push assets to the client to improve load times.
 - **Prioritize Encryption**: Always use HTTP/2 with TLS (HTTPS) for secure connections.
 - **Optimize Resources**: Avoid unnecessary push of large files to prevent bandwidth wastage.
 
-### 10. **Practical Example**
+## 10. **Practical Example**
 
 **Full Example: HTTP/2 Secure Server with Server Push**
 
@@ -194,6 +194,12 @@ server.listen(8443, () => {
 });
 ```
 
-### 11. **Conclusion**
+## 11. **Conclusion**
 
-HTTP/2 is a powerful upgrade over HTTP/1.1 that provides numerous performance and security benefits. It enhances the efficiency of web communications through features like multiplexing, header compression, and server push. By adopting HTTP/2 in your Node.js applications, you can significantly reduce latency and provide a faster, more secure user experience. As web traffic grows, utilizing HTTP/2's capabilities will be essential for developing modern, high-performance web applications.
+HTTP/2 is a powerful upgrade over HTTP/1.1 since it
+
+1. Provides numerous performance and security benefits
+2. Enhances the efficiency of web communications through features like <b>multiplexing, header compression, and server push</b>.
+3. significantly reduces latency and provide a faster, more secure user experience.
+
+- As web traffic grows, utilizing HTTP/2's capabilities will be essential for developing modern, high-performance web applications.
