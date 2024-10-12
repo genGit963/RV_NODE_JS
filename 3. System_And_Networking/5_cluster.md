@@ -201,5 +201,3 @@ cluster.on("exit", (worker) => {
 - The Cluster module is a powerful tool to maximize resource utilization on multi-core systems.
 - Use best practices for error handling and performance optimization to create scalable and efficient applications.
 - Always consider the cross-process communication requirements and session management strategies when designing clustered systems.
-
-This guide should give you a solid understanding of how to leverage the Cluster module to build scalable, high-performance Node.js applications.
