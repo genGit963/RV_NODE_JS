@@ -74,11 +74,11 @@ Node.js provides the `dns` module to handle DNS queries. It allows you to perfor
 
 DNS resolves domain names into their corresponding IP addresses to enable network communication. It also supports different types of records like:
 
-- **A Record**: Maps a domain to an IPv4 address.
-- **AAAA Record**: Maps a domain to an IPv6 address.
-- **MX Record**: Used for mail exchange servers.
-- **CNAME Record**: Alias for another domain name.
-- **TXT Record**: Stores text information for domains.
+1. **A Record**: Maps a domain to an IPv4 address.
+2. **AAAA Record**: Maps a domain to an IPv6 address.
+3. **MX Record**: Used for mail exchange servers.
+4. **CNAME Record**: Alias for another domain name.
+5. **TXT Record**: Stores text information for domains.
 
 ## Synchronous vs. Asynchronous Methods
 
